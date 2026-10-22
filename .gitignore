@@ -1,0 +1,12 @@
+# Ignorar bases de dados (MIMIC-III e outros)
+*.csv
+*.dat
+*.hea
+*.mat
+/data/
+/Base_MIMIC_PPG/
+
+# Ignorar arquivos temporários do Python e Colab
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
